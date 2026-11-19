@@ -1,0 +1,27 @@
+# Terraform 下载的 provider 和模块（每次 init 都会重新下载）
+.terraform/
+
+# 状态文件：可能含敏感信息，绝对不要上传
+*.tfstate
+*.tfstate.*
+
+# 真实的变量值（可能含项目 ID 等），只上传 .example 版本
+*.tfvars
+!*.tfvars.example
+
+crash.log
+site/# Terraform 下载的 provider 和模块（每次 init 都会重新下载）
+.terraform/
+
+# 状态文件：可能含敏感信息，绝对不要上传
+*.tfstate
+*.tfstate.*
+
+# 真实的变量值（可能含项目 ID 等），只上传 .example 版本
+*.tfvars
+!*.tfvars.example
+
+crash.log
+site/
+.venv/
+
